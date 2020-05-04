@@ -1,0 +1,14 @@
+#nome = input("qual é o seu nome: ")
+#print("Prazer em te conhecer: {:=^20}!".format(nome))
+n1 = int(input())
+n2 = int(input())
+s = n1 + n2
+m = n1 * n2
+d = n1 / n2
+di = n1 // n2
+e = n1 ** n2
+r = n1 **(1/n2)
+print(' A soma é {} a multiplicação é {} a divisão é {:.3f}'.format(s, m, d), end=" ")
+print(' a divisao inteira é {} , a exponenciação é {} e a raiz é {:.2f}'.format(di, e, r))
+
+

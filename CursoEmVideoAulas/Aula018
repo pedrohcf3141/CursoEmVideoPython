@@ -1,0 +1,22 @@
+'''
+test = list()
+test.append("Pedro")
+test.append(33)
+galera = list()
+galera.append(test[:])
+test[0] = 'Irene'
+test[1] = 38
+galera.append(test[:])
+print(galera)
+galera= []
+dado = list()
+for c in range(0,3):
+    dado.append(input('Nome: '))
+    dado.append(int(input('Idade: ')))
+    galera.append(dado[:])
+    dado.clear()
+print(galera)
+'''
+lista = [2,3,5,9,7,6,1,8]
+for c,v in enumerate(lista):
+    print(f'Na posição {c} está o valor {v}')
